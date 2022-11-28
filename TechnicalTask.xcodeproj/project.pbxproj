@@ -16,6 +16,8 @@
 		F3859E87293510A500E40773 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E86293510A500E40773 /* SettingsView.swift */; };
 		F3859E892935163D00E40773 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E882935163D00E40773 /* SettingsPresenter.swift */; };
 		F3859E8C29351A6500E40773 /* LocalMemoryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E8B29351A6500E40773 /* LocalMemoryHelper.swift */; };
+		F3859E8E293524ED00E40773 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = F3859E8D293524ED00E40773 /* cities.json */; };
+		F3859E90293526DC00E40773 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E8F293526DC00E40773 /* MainPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		F3859E86293510A500E40773 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3859E882935163D00E40773 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
 		F3859E8B29351A6500E40773 /* LocalMemoryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMemoryHelper.swift; sourceTree = "<group>"; };
+		F3859E8D293524ED00E40773 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		F3859E8F293526DC00E40773 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				F3859E842935108000E40773 /* Main */,
 				F3859E852935108A00E40773 /* Settings */,
 				F3101B842935051500F8B868 /* LaunchScreen.storyboard */,
+				F3859E8D293524ED00E40773 /* cities.json */,
 				F3101B872935051500F8B868 /* Info.plist */,
 			);
 			path = TechnicalTask;
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				F3101B7D2935051300F8B868 /* MainView.swift */,
+				F3859E8F293526DC00E40773 /* MainPresenter.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3859E8E293524ED00E40773 /* cities.json in Resources */,
 				F3101B862935051500F8B868 /* LaunchScreen.storyboard in Resources */,
 				F3101B832935051500F8B868 /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +247,7 @@
 				F3859E8C29351A6500E40773 /* LocalMemoryHelper.swift in Sources */,
 				F3101B7A2935051300F8B868 /* AppDelegate.swift in Sources */,
 				F3101B7C2935051300F8B868 /* SceneDelegate.swift in Sources */,
+				F3859E90293526DC00E40773 /* MainPresenter.swift in Sources */,
 				F3859E892935163D00E40773 /* SettingsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
