@@ -13,6 +13,9 @@
 		F3101B7E2935051300F8B868 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3101B7D2935051300F8B868 /* MainView.swift */; };
 		F3101B832935051500F8B868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3101B822935051500F8B868 /* Assets.xcassets */; };
 		F3101B862935051500F8B868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3101B842935051500F8B868 /* LaunchScreen.storyboard */; };
+		F3158C102936032500D07BF4 /* SelectCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3158C0F2936032500D07BF4 /* SelectCityCell.swift */; };
+		F363C5AF2935E9D60027C53D /* SelectCityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363C5AE2935E9D60027C53D /* SelectCityPresenter.swift */; };
+		F36E02962935D62E00C6F01D /* SelectCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36E02952935D62E00C6F01D /* SelectCityView.swift */; };
 		F3859E87293510A500E40773 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E86293510A500E40773 /* SettingsView.swift */; };
 		F3859E892935163D00E40773 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E882935163D00E40773 /* SettingsPresenter.swift */; };
 		F3859E8C29351A6500E40773 /* LocalMemoryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3859E8B29351A6500E40773 /* LocalMemoryHelper.swift */; };
@@ -31,6 +34,9 @@
 		F3101B822935051500F8B868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3101B852935051500F8B868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3101B872935051500F8B868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3158C0F2936032500D07BF4 /* SelectCityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityCell.swift; sourceTree = "<group>"; };
+		F363C5AE2935E9D60027C53D /* SelectCityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityPresenter.swift; sourceTree = "<group>"; };
+		F36E02952935D62E00C6F01D /* SelectCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityView.swift; sourceTree = "<group>"; };
 		F3859E86293510A500E40773 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3859E882935163D00E40773 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
 		F3859E8B29351A6500E40773 /* LocalMemoryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMemoryHelper.swift; sourceTree = "<group>"; };
@@ -94,11 +100,22 @@
 				F3859E8A29351A5300E40773 /* Helpers */,
 				F3859E842935108000E40773 /* Main */,
 				F3859E852935108A00E40773 /* Settings */,
+				F36E02922935D60200C6F01D /* SelectCity */,
 				F3101B842935051500F8B868 /* LaunchScreen.storyboard */,
 				F3859E8D293524ED00E40773 /* cities.json */,
 				F3101B872935051500F8B868 /* Info.plist */,
 			);
 			path = TechnicalTask;
+			sourceTree = "<group>";
+		};
+		F36E02922935D60200C6F01D /* SelectCity */ = {
+			isa = PBXGroup;
+			children = (
+				F36E02952935D62E00C6F01D /* SelectCityView.swift */,
+				F363C5AE2935E9D60027C53D /* SelectCityPresenter.swift */,
+				F3158C0F2936032500D07BF4 /* SelectCityCell.swift */,
+			);
+			path = SelectCity;
 			sourceTree = "<group>";
 		};
 		F3859E842935108000E40773 /* Main */ = {
@@ -244,8 +261,11 @@
 			files = (
 				F3101B7E2935051300F8B868 /* MainView.swift in Sources */,
 				F3859E87293510A500E40773 /* SettingsView.swift in Sources */,
+				F3158C102936032500D07BF4 /* SelectCityCell.swift in Sources */,
 				F3859E8C29351A6500E40773 /* LocalMemoryHelper.swift in Sources */,
+				F36E02962935D62E00C6F01D /* SelectCityView.swift in Sources */,
 				F3101B7A2935051300F8B868 /* AppDelegate.swift in Sources */,
+				F363C5AF2935E9D60027C53D /* SelectCityPresenter.swift in Sources */,
 				F3101B7C2935051300F8B868 /* SceneDelegate.swift in Sources */,
 				F3859E90293526DC00E40773 /* MainPresenter.swift in Sources */,
 				F3859E892935163D00E40773 /* SettingsPresenter.swift in Sources */,

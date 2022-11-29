@@ -5,12 +5,14 @@ PODS:
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - SwiftyJSON (5.0.0)
   - TinyConstraints (4.0.2)
 
 DEPENDENCIES:
   - Alamofire
   - Kingfisher
   - Moya
+  - SwiftyJSON
   - TinyConstraints
 
 SPEC REPOS:
@@ -18,14 +20,16 @@ SPEC REPOS:
     - Alamofire
     - Kingfisher
     - Moya
+    - SwiftyJSON
     - TinyConstraints
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   Kingfisher: 184d4d1a8c36666e663caf8e08abe87898595c53
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: f94f22e42574741e65680c47f971ba734f1a34fa
+PODFILE CHECKSUM: ed317b09eb187c8c66bd628438553b092d5fbf23
 
 COCOAPODS: 1.11.2

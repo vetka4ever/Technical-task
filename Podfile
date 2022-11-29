@@ -8,6 +8,7 @@ target 'TechnicalTask' do
 pod "TinyConstraints"
 pod "Moya"
 pod "Kingfisher"
-pod "Alamofire"     
+pod "Alamofire"
+pod "SwiftyJSON"     
 
 end
